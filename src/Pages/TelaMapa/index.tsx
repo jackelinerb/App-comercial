@@ -1,8 +1,14 @@
 import React from "react";
 
-import { Title } from "./style";
+import { Title, pageMap } from "./style";
+import Mapt from "./mapa";
 
 const Map: React.FC = () => {
-    return <Title>Mapa</Title>;
+    return (
+        <>
+            <Title>Mapa</Title>
+            <Mapt />
+        </>
+    );
 };
 export default Map;
